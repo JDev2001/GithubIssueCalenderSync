@@ -3,7 +3,7 @@ $taskName   = "GitHubIssueCalendarSync"
 
 $action = New-ScheduledTaskAction `
     -Execute "uv" `
-    -Argument "run main.py" `
+    -Argument "run src/main.py" `
     -WorkingDirectory $projectDir
 
 # Alle 2 Stunden, beginning heute um Mitternacht

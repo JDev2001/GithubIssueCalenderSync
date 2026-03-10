@@ -13,7 +13,7 @@ dependencies = [
 sync = "main:main"
 
 [tool.hatch.build.targets.wheel]
-sources = ["."]
+sources = ["src"]
 include = ["*.py"]
 
 [build-system]
