@@ -1,4 +1,4 @@
-$projectDir = "C:\Users\jonas\source\repos\GithubIssueCalenderSync"
+$projectDir = $PSScriptRoot
 $taskName   = "GitHubIssueCalendarSync"
 
 $action = New-ScheduledTaskAction `
